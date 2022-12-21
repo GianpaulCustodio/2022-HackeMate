@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Wed Dec 14 22:31:24 2022 as: nmap -sS --min-rate 5000 --open -vvv -n -Pn -p- -oG allPorts 10.10.10.37
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.37 ()	Status: Up
+Host: 10.10.10.37 ()	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///, 25565/open/tcp//minecraft///
+# Nmap done at Wed Dec 14 22:31:51 2022 -- 1 IP address (1 host up) scanned in 27.06 seconds
