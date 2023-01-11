@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Wed Jan  4 18:29:58 2023 as: nmap -sS --min-rate 5000 --open -vvv -n -Pn -p- -oG allPorts 128.199.18.209
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 128.199.18.209 ()	Status: Up
+Host: 128.199.18.209 ()	Ports: 22/open/tcp//ssh///, 2000/open/tcp//cisco-sccp///, 4321/open/tcp//rwhois///
+# Nmap done at Wed Jan  4 18:30:40 2023 -- 1 IP address (1 host up) scanned in 42.76 seconds
