@@ -1,6 +1,12 @@
 #!/bin/bash
 #Made by HackeMate
 
+function ctrl_c(){
+	echo -e "\n\nSaliendo..."
+}
+
+trap ctrl_c SIGINT
+
 ip=$1
 if [ $ip ]; then
 	ping -c 1 $ip > tmp.txt
@@ -13,4 +19,4 @@ if [ $ip ]; then
 else
 	echo "[*]Modo de uso: ./whichSystem.sh <IP>"
 fi
-rm tmp.txt
+	rm tmp.txt
