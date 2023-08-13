@@ -1,5 +1,6 @@
 #!/bin/bash
 #Si quieres hacer el testeo desde una bash tienes que hacerlo desde root y desde bash.
+#Por default los puertos están desactivados, puedes activar uno: sudo service ssh start (22).
 
 function ctrl_c(){
 	echo -e "\n\nSaliendo..."
