@@ -1,0 +1,5 @@
+1. Estar ya logeado en github desde la terminal
+2. Estar en la carpeta raiz y escribir lo siguiente:
+    git config --global credential.helper store
+
+Este comando almacenará las credenciales de GitHub en un archivo caché en el directorio ~/.gitconfig.
