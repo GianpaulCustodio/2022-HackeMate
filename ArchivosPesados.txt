@@ -1,0 +1,10 @@
+link: https://www.youtube.com/watch?v=judfGU0f6QU
+
+
+1. git lfs install
+2. git status
+3. git lfs track "*.cap"  (agregas el archivo pesado)
+4. git add .
+5. git status
+6. git commit -m "cambios"
+7. git push
